@@ -5,10 +5,10 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, JobQu
 import logging
 
 # Replace 'YOUR_TOKEN' with your actual bot token
-TOKEN = '6559560015:AAEhjH85sApa4dlcc_uOSBTiYhOPtpiDK2Q'
+TOKEN = 'YOUR_TOKEN'
 
 # Replace 'YOUR_MOVIE_API_KEY' with your actual API key for the movie database
-MOVIE_API_KEY = '8620b03bfed8c8ab570cd23dfd81961d'
+MOVIE_API_KEY = 'YOUR_MOVIE_API_KEY' 
 MOVIE_API_URL = f'https://api.themoviedb.org/3/movie/now_playing?api_key={MOVIE_API_KEY}'
 MOVIE_POSTER_BASE_URL = 'https://image.tmdb.org/t/p/w500'
 
